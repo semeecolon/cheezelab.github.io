@@ -1,0 +1,55 @@
+Configure Development Environment.
+
+Windows
+
+-git (***)
+	-SourceTree
+
+-fonts
+	-'JetBrainsMono NF', 'Fira Code', 'Cascadia Code', 'D2Coding', Consolas, 'Courier New'
+	-Note. NF fonts are required in the OhMyPosh environment
+
+-Windows Terminal (***)
+	-install
+		-github (https://github.com/microsoft/terminal/releases)
+	-settings (settings.json file backup)
+		-defaultProfile (colorScheme, font, opacity, shell list)
+		-scheme(color)
+		-theme
+		
+-winget (*) (Windows package manager (https://github.com/microsoft/winget-cli, https://learn.microsoft.com/ko-kr/windows/package-manager/, Windows Store : https://apps.microsoft.com/detail/9NBLGGH4NNS1?rtc=1&hl=ko-kr&gl=KR#activetab=pivot:overviewtab)
+		
+-OhMyPosh (*)
+	-install(winget, manual)
+		-homepage, github (https://ohmyposh.dev/, https://github.com/jandedobbeleer/oh-my-posh/releases)
+	-settings
+		-Nerd Fonts (https://www.nerdfonts.com/)
+		-shell pfofile (Windows : powershell)
+		-theme
+		-available detail configuration (★)
+	
+
+-------
+
+Common
+
+-SDK
+	-Java
+	-.NET
+
+-Development Tools
+	-VS Code
+		-settings (seeeings.json file backup)
+			-theme
+			-fonts
+			-extention
+	-IntelliJ
+
+-ETC Tools
+	-Notepad++ (**)
+		-settings
+			-theme (cobalt)
+			-font
+			-auto li
+			-plugins : JSON Viewer, MarkdownViewer++
+		
