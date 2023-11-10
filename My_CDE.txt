@@ -16,6 +16,7 @@ Windows
 		-defaultProfile (colorScheme, font, opacity, shell list)
 		-scheme(color)
 		-theme
+	-powershell update (7 or higher)
 		
 -winget (*) (Windows package manager (https://github.com/microsoft/winget-cli, https://learn.microsoft.com/ko-kr/windows/package-manager/, Windows Store : https://apps.microsoft.com/detail/9NBLGGH4NNS1?rtc=1&hl=ko-kr&gl=KR#activetab=pivot:overviewtab)
 		
@@ -23,12 +24,12 @@ Windows
 	-install(winget, manual)
 		-homepage, github (https://ohmyposh.dev/, https://github.com/jandedobbeleer/oh-my-posh/releases)
 	-settings
+		-config(or make) powershell profile (oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\unicorn.omp.json" | Invoke-Expression)
 		-Nerd Fonts (https://www.nerdfonts.com/)
 		-shell pfofile (Windows : powershell)
 		-theme
 		-available detail configuration (★)
 	
-
 -------
 
 Common
